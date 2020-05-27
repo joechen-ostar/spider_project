@@ -1,0 +1,15 @@
+1. 安装 pip install scrapy
+    如果是windows环境下还需要安装 pypiwin32 语句 pip install pypiwin32
+
+2. 创建项目
+    scrapy startproject qsbk
+
+   项目结构
+   cfg 是项目的配置文件
+
+   setting里面设置的是爬虫里面的延时 请求代理ip这种信息
+
+   scrapy genspider qsbk_spider "qiushibaike.com" # 要进入这个项目目录中 然后使用找该语句创建 cd qsbk  不能创建和项目相同的名称
+
+
+3.
